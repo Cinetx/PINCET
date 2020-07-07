@@ -134,8 +134,8 @@ header {
 .header__address__link {
   color: #ff6078;
   margin-top: 1vw;
-  width: 145px;
-  width: 8vw;
+
+  width: 9vw;
   cursor: pointer;
   font-size: 0.65vw;
   letter-spacing: 1.2px;
