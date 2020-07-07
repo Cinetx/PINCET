@@ -1,0 +1,27 @@
+header {
+    background:
+        url('../images/wwave.png') no-repeat bottom,
+        url('../images/woman.png') right bottom no-repeat,
+        url('../images/smart1.png') no-repeat left fixed,
+        url('../images/smart2.png') no-repeat right top fixed,
+        url('../images/background.png') no-repeat;
+    background-size: 100%, 50vw, auto, auto, cover;
+    padding-bottom: 8vw;
+
+}
+
+@media (max-width: 992px) {
+    header {
+        background:
+            url('../images/wwave.png') no-repeat bottom,
+            none,
+            url('../images/smart1.png') no-repeat left fixed,
+            url('../images/smart2.png') no-repeat right top fixed,
+            url('../images/background.png') no-repeat;
+        background-size: 200%, 75vw, auto, auto, cover;
+        padding-bottom: 200px;
+
+
+    }
+
+}

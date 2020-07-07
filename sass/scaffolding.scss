@@ -1,0 +1,97 @@
+
+
+
+@font-face {
+  font-family: 'MUSEOSANSCYRL';
+  src: url('../fonts/MUSEOSANSCYRL_0.OTF'); 
+  font-weight: 100; 
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MUSEOSANSCYRL';
+  src: url('../fonts/MUSEOSANSCYRL_1.OTF'); 
+  font-weight: 300; 
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MUSEOSANSCYRL';
+  src: url('../fonts/MUSEOSANSCYRL_2.OTF'); 
+  font-weight: 500; 
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MUSEOSANSCYRL';
+  src: url('../fonts/MUSEOSANSCYRL_3.OTF'); 
+  font-weight: 700; 
+  font-style: normal;
+  }
+@font-face {
+  font-family: 'MUSEOSANSCYRL';
+  src: url('../fonts/MUSEOSANSCYRL.OTF'); 
+  font-weight: 900; 
+  font-style: normal;
+}
+body {
+  font-family: MUSEOSANSCYRL, sans-serif;
+ 
+}
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+ list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+
+  text-decoration-skip-ink: auto;
+}
+a {
+  color: black;
+}
+
+/* Make images easier to work with */
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
